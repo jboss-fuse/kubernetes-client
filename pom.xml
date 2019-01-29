@@ -26,7 +26,7 @@
 
   <groupId>io.fabric8</groupId>
   <artifactId>kubernetes-client-project</artifactId>
-  <version>3.1.12</version>
+  <version>3.1.12.fuse-730008</version>
   <packaging>pom</packaging>
   <name>Fabric8 :: Kubernetes :: Project</name>
 
@@ -93,7 +93,7 @@
     <arquillian.cube.version>1.15.2</arquillian.cube.version>
     <assertj.core.version>3.8.0</assertj.core.version>
     <arquillian.core.version>1.2.0.Final</arquillian.core.version>
-    <karaf.version>4.2.0.fuse-730010</karaf.version>
+    <karaf.version>4.2.0.fuse-730016</karaf.version>
 
     <slf4j.version>1.7.13</slf4j.version>
     <snakeyaml.version>1.20</snakeyaml.version>

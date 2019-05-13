@@ -20,7 +20,7 @@
   <parent>
     <groupId>io.fabric8</groupId>
     <artifactId>kubernetes-client-project</artifactId>
-    <version>3.1.12</version>
+    <version>3.1.12.fuse-preprod-740001-redhat-00001</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -30,20 +30,14 @@
   <packaging>jar</packaging>
 
   <properties>
-    <osgi.import>
-      !android.util*,
-      *
-    </osgi.import>
-    <osgi.export>
-      io.fabric8.kubernetes.client*;-noimport:=true,
-      io.fabric8.kubernetes.internal;-noimport:=true,
-    </osgi.export>
-    <osgi.private>
-      io.fabric8.kubernetes.client.internal,
+    <osgi.import>!android.util*,
+      *</osgi.import>
+    <osgi.export>io.fabric8.kubernetes.client*;-noimport:=true,
+      io.fabric8.kubernetes.internal;-noimport:=true,</osgi.export>
+    <osgi.private>io.fabric8.kubernetes.client.internal,
       io.fabric8.kubernetes.client.handlers,
       io.fabric8.kubernetes.client.dsl.base,
-      io.fabric8.kubernetes.client.dsl.internal
-    </osgi.private>
+      io.fabric8.kubernetes.client.dsl.internal</osgi.private>
   </properties>
 
   <build>

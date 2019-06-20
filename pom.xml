@@ -284,6 +284,31 @@
     </plugins>
   </build>
 
+  <repositories>
+    <repository>
+      <id>redhat-ga-repository</id>
+      <name>redhat-ga-repository</name>
+      <url>https://maven.repository.redhat.com/ga</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jboss-ea</id>
+      <name>jboss-ea</name>
+      <url>https://repository.jboss.org/nexus/content/groups/ea</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
   <profiles>
     <profile>
       <id>release</id>

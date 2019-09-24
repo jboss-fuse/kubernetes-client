@@ -95,6 +95,9 @@
     <arquillian.core.version>1.2.0.Final</arquillian.core.version>
     <karaf.version>4.2.0.fuse-730010</karaf.version>
 
+    <osgi.version>6.0.0</osgi.version>
+    <pax.exam.version>4.13.1</pax.exam.version>
+
     <slf4j.version>1.7.13</slf4j.version>
     <snakeyaml.version>1.20</snakeyaml.version>
 

@@ -3,6 +3,7 @@
 #### 3.1.12 (To be released)
   Bugs
    * Fix #1070 : Error parsing openshift json template with the latest version
+   * Fix #1667: Origin header for watch requests had a port of -1 when no port specified
 
   Improvements
 

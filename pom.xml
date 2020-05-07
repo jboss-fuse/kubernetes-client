@@ -89,7 +89,7 @@
     <jackson.bundle.version>${jackson.version}</jackson.bundle.version>
     <junit.version>4.12</junit.version>
     <kubernetes.model.version>2.0.10.fuse-730011</kubernetes.model.version>
-    <log4j.version>2.12.1</log4j.version>
+    <log4j.version>2.13.2</log4j.version>
     <zjsonpatch.version>0.3.0</zjsonpatch.version>
     <arquillian.cube.version>1.15.2</arquillian.cube.version>
     <assertj.core.version>3.8.0</assertj.core.version>

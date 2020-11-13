@@ -80,10 +80,11 @@
     <!-- Core versions -->
     <sundrio.version>0.17.2</sundrio.version>
     <okhttp.version>3.12.6</okhttp.version>
-    <okhttp.bundle.version>3.12.1_1</okhttp.bundle.version>
+    <okhttp.bundle.version>3.12.0_1</okhttp.bundle.version>
     <okio.version>1.15.0</okio.version>
     <okio.bundle.version>1.15.0_1</okio.bundle.version>
     <jackson.version>2.9.10</jackson.version>
+    <jackson2.databind.version>2.9.10.4-redhat-00001</jackson2.databind.version>
     <mockwebserver.version>0.1.7</mockwebserver.version>
 
     <!-- API versions -->
@@ -108,9 +109,9 @@
     <arquillian.cube.version>1.18.2</arquillian.cube.version>
     <slf4j.version>1.7.29</slf4j.version>
     <lombok.version>1.18.10</lombok.version>
-    <snakeyaml.version>1.24</snakeyaml.version>
-    <bouncycastle.version>1.62</bouncycastle.version>
-    <commons-codec.version>1.13</commons-codec.version>
+    <snakeyaml.version>1.26</snakeyaml.version>
+    <bouncycastle.version>1.66</bouncycastle.version>
+    <commons-codec.version>1.14</commons-codec.version>
     <commons-compress.version>1.18</commons-compress.version>
     <scr.annotations.version>1.12.0</scr.annotations.version>
     <jsonschema2pojo.version>0.4.23</jsonschema2pojo.version>

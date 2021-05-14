@@ -21,7 +21,7 @@
   <parent>
     <groupId>io.fabric8</groupId>
     <artifactId>service-catalog</artifactId>
-    <version>4.6.2</version>
+    <version>4.6.2.fuse-7_10_0-00001</version>
   </parent>
 
   <artifactId>servicecatalog-model-generator</artifactId>

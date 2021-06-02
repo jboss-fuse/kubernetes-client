@@ -83,8 +83,8 @@
     <okhttp.bundle.version>3.12.0_1</okhttp.bundle.version>
     <okio.version>1.15.0</okio.version>
     <okio.bundle.version>1.15.0_1</okio.bundle.version>
-    <jackson.version>2.9.10</jackson.version>
-    <jackson2.databind.version>2.9.10.4-redhat-00001</jackson2.databind.version>
+    <jackson.version>2.12.1</jackson.version>
+    <jackson2.databind.version>2.12.1</jackson2.databind.version>
     <mockwebserver.version>0.1.7</mockwebserver.version>
 
     <!-- API versions -->

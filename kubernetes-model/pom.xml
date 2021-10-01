@@ -140,8 +140,6 @@
     </profile>
     <profile>
       <id>distro</id>
-      <modules>
-      </modules>
     </profile>
     <profile>
       <id>itest</id>

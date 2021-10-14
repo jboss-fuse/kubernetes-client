@@ -61,6 +61,7 @@ import io.fabric8.kubernetes.client.dsl.TtyExecOutputErrorable;
 import io.fabric8.kubernetes.client.dsl.TtyExecable;
 import io.fabric8.kubernetes.client.dsl.base.HasMetadataOperation;
 import io.fabric8.kubernetes.client.dsl.base.OperationContext;
+import io.fabric8.kubernetes.client.lib.FilenameUtils;
 import io.fabric8.kubernetes.client.utils.BlockingInputStreamPumper;
 import io.fabric8.kubernetes.client.utils.URLUtils;
 import okhttp3.*;
@@ -492,7 +493,11 @@ public class PodOperationsImpl extends HasMetadataOperation<Pod, PodList, Doneab
         {
           for (org.apache.commons.compress.archivers.ArchiveEntry entry = tis.getNextTarEntry(); entry != null; entry = tis.getNextEntry()) {
             if (tis.canReadEntryData(entry)) {
-              File f = new File(destination, entry.getName());
+              final String normalizedEntryName = FilenameUtils.normalize(entry.getName());
+              if (normalizedEntryName == null){
+                throw new IOException("Tar entry '" + entry.getName() + "' has an invalid name");
+              }
+              File f = new File(destination, normalizedEntryName);
               if (entry.isDirectory()) {
                 if (!f.isDirectory() && !f.mkdirs()) {
                   throw new IOException("Failed to create directory: " + f);

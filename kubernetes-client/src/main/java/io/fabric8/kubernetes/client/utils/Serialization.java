@@ -21,6 +21,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import io.fabric8.kubernetes.api.model.KubernetesResource;
 import io.fabric8.kubernetes.client.KubernetesClientException;
+import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.constructor.SafeConstructor;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
@@ -309,5 +311,19 @@ public class Serialization {
     } catch (IOException e) {
       throw new RuntimeException("Unable to read InputStream." + e);
     }
+  }
+
+  private static <T> T unmarshalYaml(InputStream is, TypeReference<T> type) throws JsonProcessingException {
+    final Yaml yaml = new Yaml(new SafeConstructor());
+    Map<String, Object> obj = yaml.load(is);
+    String objAsJsonStr = JSON_MAPPER.writeValueAsString(obj);
+    return unmarshalJsonStr(objAsJsonStr, type);
+  }
+
+  private static <T> T unmarshalJsonStr(String jsonString, TypeReference<T> type) throws JsonProcessingException {
+    if (type != null) {
+      return JSON_MAPPER.readValue(jsonString, type);
+    }
+    return JSON_MAPPER.readerFor(KubernetesResource.class).readValue(jsonString);
   }
 }

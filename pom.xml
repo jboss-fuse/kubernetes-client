@@ -103,6 +103,7 @@
     <automaton.version>1.11-8</automaton.version>
     <automaton.bundle.version>1.11-8_1</automaton.bundle.version>
     <jackson.bundle.version>${jackson.version}</jackson.bundle.version>
+    <jackson.databind.bundle.version>${jackson2.databind.version}</jackson.databind.bundle.version>
     <junit.version>5.5.2</junit.version>
     <zjsonpatch.version>0.3.0.redhat-00001</zjsonpatch.version>
     <arquillian.cube.version>1.18.2</arquillian.cube.version>

@@ -81,8 +81,9 @@
     <okhttp.bundle.version>3.12.0.1-fuse-redhat-00002</okhttp.bundle.version>
     <okio.version>1.15.0</okio.version>
     <okio.bundle.version>1.15.0_1</okio.bundle.version>
-    <jackson.version>2.12.1</jackson.version>
-    <jackson2.databind.version>2.12.1</jackson2.databind.version>
+    <jackson.version>2.12.6</jackson.version>
+    <jackson.bom.version>2.12.6.20220326</jackson.bom.version>
+    <jackson2.databind.version>2.12.6.1</jackson2.databind.version>
     <mockwebserver.version>0.1.7</mockwebserver.version>
 
     <!-- API versions -->
@@ -102,6 +103,7 @@
     <automaton.version>1.11-8</automaton.version>
     <automaton.bundle.version>1.11-8_1</automaton.bundle.version>
     <jackson.bundle.version>${jackson.version}</jackson.bundle.version>
+    <jackson.databind.bundle.version>${jackson2.databind.version}</jackson.databind.bundle.version>
     <junit.version>5.5.2</junit.version>
     <zjsonpatch.version>0.3.0.redhat-00001</zjsonpatch.version>
     <arquillian.cube.version>1.18.2</arquillian.cube.version>
@@ -229,7 +231,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson</groupId>
         <artifactId>jackson-bom</artifactId>
-        <version>${jackson.version}</version>
+        <version>${jackson.bom.version}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>

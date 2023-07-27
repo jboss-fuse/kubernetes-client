@@ -98,26 +98,26 @@
     <retrofit.bundle.version>2.5.0_1</retrofit.bundle.version>
     <conscrypt-openjdk-uber.version>1.4.2</conscrypt-openjdk-uber.version>
     <conscrypt-openjdk-uber.bundle.version>1.4.2_1</conscrypt-openjdk-uber.bundle.version>
-    <generex.version>1.0.2.redhat-1</generex.version>
+    <generex.version>1.0.2.redhat-00003</generex.version>
     <generex.bundle.version>1.0.2.2-fuse-redhat-00002</generex.bundle.version>
     <automaton.version>1.11-8</automaton.version>
     <automaton.bundle.version>1.11-8_1</automaton.bundle.version>
     <jackson.bundle.version>${jackson.version}</jackson.bundle.version>
     <jackson.databind.bundle.version>${jackson2.databind.version}</jackson.databind.bundle.version>
     <junit.version>5.5.2</junit.version>
-    <zjsonpatch.version>0.3.0.redhat-00001</zjsonpatch.version>
+    <zjsonpatch.version>0.3.0.redhat-00002</zjsonpatch.version>
     <arquillian.cube.version>1.18.2</arquillian.cube.version>
-    <slf4j.version>1.7.36.redhat-00002</slf4j.version>
+    <slf4j.version>1.7.36.redhat-00003</slf4j.version>
     <lombok.version>1.18.10</lombok.version>
-    <snakeyaml.version>1.33.0.redhat-00001</snakeyaml.version>
+    <snakeyaml.version>1.33.0.redhat-00002</snakeyaml.version>
     <bouncycastle.version>1.74</bouncycastle.version>
-    <commons-codec.version>1.15.0.redhat-00001</commons-codec.version>
+    <commons-codec.version>1.15.0.redhat-00008</commons-codec.version>
     <commons-compress.version>1.23.0</commons-compress.version>
     <commons-io.version>2.11.0.redhat-00001</commons-io.version>
     <commons-lang.version>2.6.0.redhat-7</commons-lang.version>
     <commons-lang3.version>3.12.0.redhat-00001</commons-lang3.version>
-    <jakarta.activation.version>1.2.2.redhat-00001</jakarta.activation.version>
-    <jakarta.jaxb.version>2.3.3.redhat-00001</jakarta.jaxb.version>
+    <jakarta.activation.version>1.2.2.redhat-00002</jakarta.activation.version>
+    <jakarta.jaxb.version>2.3.3.redhat-00003</jakarta.jaxb.version>
     <scr.annotations.version>1.12.0</scr.annotations.version>
     <jsonschema2pojo.version>0.4.23</jsonschema2pojo.version>
 

@@ -110,7 +110,7 @@
     <slf4j.version>1.7.36.redhat-00002</slf4j.version>
     <lombok.version>1.18.10</lombok.version>
     <snakeyaml.version>1.33.0.redhat-00001</snakeyaml.version>
-    <bouncycastle.version>1.74</bouncycastle.version>
+    <bouncycastle.version>1.76</bouncycastle.version>
     <commons-codec.version>1.15.0.redhat-00001</commons-codec.version>
     <commons-compress.version>1.23.0</commons-compress.version>
     <commons-io.version>2.11.0.redhat-00001</commons-io.version>

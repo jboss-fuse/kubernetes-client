@@ -111,6 +111,7 @@
     <lombok.version>1.18.10</lombok.version>
     <snakeyaml.version>1.33.0.redhat-00001</snakeyaml.version>
     <bouncycastle.version>1.78.1</bouncycastle.version>
+    <bouncycastle.ext.version>1.78</bouncycastle.ext.version>
     <commons-codec.version>1.16.1</commons-codec.version>
     <commons-compress.version>1.26.0</commons-compress.version>
     <commons-io.version>2.15.1</commons-io.version>

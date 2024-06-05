@@ -34,7 +34,7 @@
   </modules>
 
   <properties>
-    <karaf.version>4.4.3.fuse-7_13_0-00012</karaf.version>
+    <karaf.version>4.4.3.fuse-7_13_0-00012-redhat-00001</karaf.version>
     <osgi.version>8.0.0</osgi.version>
     <pax.exam.version>4.13.5</pax.exam.version>
   </properties>

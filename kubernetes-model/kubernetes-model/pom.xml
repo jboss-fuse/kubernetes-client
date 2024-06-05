@@ -200,7 +200,7 @@
         <dependency>
           <groupId>javax.annotation</groupId>
           <artifactId>javax.annotation-api</artifactId>
-          <version>1.3.2.redhat-00001</version>
+          <version>1.3.2.redhat-00003</version>
         </dependency>
         <dependency>
           <groupId>javax.xml.bind</groupId>
@@ -243,7 +243,7 @@
               <dependency>
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>
-                <version>1.3.2</version>
+                <version>1.3.2.redhat-00003</version>
               </dependency>
             </dependencies>
           </plugin>
